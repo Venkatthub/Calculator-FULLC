@@ -2,5 +2,5 @@
 
 A basic arithmetic calculator using Java Script, HTML and cascading sheets.
 
-![calc](Calculator-FULLC/Calculator/images/calc.jpg)
+![calc](Calculator/images/calc.jpg)
 
