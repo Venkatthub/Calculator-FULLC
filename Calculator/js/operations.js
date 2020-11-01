@@ -49,7 +49,7 @@ $(".operate").click(function () {
             num2 = '';
 
         }
-    }else if (operation === 'equal'){
+    } else if (operation === 'equal') {
 
         counter = 1;
         num1 = 0;
@@ -57,7 +57,7 @@ $(".operate").click(function () {
         $("h3").empty();
 
     }
-   
+
 
 });
 
@@ -93,8 +93,14 @@ function computeResult() {
 
 }
 
-function displayResult(){
 
-    
 
-}
+$('#clear').click(function () {
+
+    counter = 1;
+    num1 = 0;
+    num2 = 0;
+    $("h3").empty();
+    $("h1").empty();
+
+});

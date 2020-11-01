@@ -9,59 +9,64 @@
     <script src="js/jquery.js"></script>
 </head>
 
-<body></body>
+<body>
 
-<header id="head1">FULL <span id="headspan1">C</span></header>
+    <header>
+        <div class='full'>FULL <span id="headspan1">C</span></< /div>
+    </header>
 
-<div class="rightCalc">
-    <h3 id="box"></h3>
-</div>
 
-<div class="result">
-    <h1 id="result"></h1>
-</div>
+    <div class="rightCalc">
 
-<table>
-    <tr>
-        <td>
-            <button class="valueS" value="1">1</button></td>
-        <td>
-            <button class="valueS" value="2">2</button></td>
-        <td>
-            <button class="valueS" value="3">3</button></td>
-        <td>
-            <button class="valueS" value="4">4</button></td>
-        <td>
-            <button class="operate" id="/" value="div">/</button></td>
-    </tr>
-    <tr>
-        <td>
-            <button class="valueS" value="5">5</button></td>
-        <td>
-            <button class="valueS" value="6">6</button></td>
-        <td>
-            <button class="valueS" value="7">7</button></td>
-        <td>
-            <button class="valueS" value="8">8</button></td>
-        <td>
-            <button class="operate" id="*" value="mul">*</button></td>
-    </tr>
-    <tr>
-        <td>
-            <button class="valueS" value="9">9</button></td>
-        <td>
-            <button class="valueS" value="0">0</button></td>
-        <td>
-            <button class="operate" id="eq" value="equal">=</button></td>
-        <td>
-            <button class="operate" id="+" value="sum">+</button></td>
-        <td>
-            <button class="operate" id="-" value="diff">-</button></td>
+        <h3 id="box"></h3>
 
-    </tr>
-</table>
+    </div>
 
-<script src="js/operations.js"></script>
+    <div class="result">
+
+        <hr>
+
+        <h1 id="res"></h1>
+
+    </div>
+
+    <div class="win left">
+        <button class="valueS" value="1">1</button>
+
+        <button class="valueS" value="2">2</button>
+
+        <button class="valueS" value="3">3</button>
+
+        <button class="valueS" value="4">4</button>
+
+        <button class="operate" id="/" value="div">/</button>
+
+        <br>
+        <button class="valueS" value="5">5</button>
+
+        <button class="valueS" value="6">6</button>
+
+        <button class="valueS" value="7">7</button>
+
+        <button class="valueS" value="8">8</button>
+
+        <button class="operate" id="*" value="mul">*</button>
+
+        <br>
+
+        <button class="valueS" value="9">9</button>
+
+        <button class="valueS" value="0">0</button>
+
+        <button class="operate" id="eq" value="equal">=</button>
+
+        <button class="operate" id="+" value="sum">+</button>
+
+        <button class="operate" id="-" value="diff">-</button>
+    </div>
+    <button style=" padding: 50px; width: 625px; height: 20px;" id="clear">CE</button>
+
+    <script src="js/operations.js"></script>
 
 </body>
 
